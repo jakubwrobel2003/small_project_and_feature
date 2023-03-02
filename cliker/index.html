@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Cookie Clicker</title>
+  </head>
+  <body>
+    <main>
+      <div class="click-box">
+        <img
+          class="cookies-photo"
+          src="content/png-clipart-s-chocolate-cookie.png"
+        />
+        <div class="click-point-box">
+          <span id="point-value">0</span>
+          <span>Cookies</span>
+        </div>
+      </div>
+      <div class="menu-box">
+        <h1>Cookie Clicker</h1>
+        <p>Cookies per click:</p>
+        <span id="per-click" class="per-click">1</span>
+        <button id="btnRestart">Restart</button>
+        <section class="hidden" id="restart">
+          <p>Restart!!!</p>
+          <span>You will lose all progress permanently</span>
+          <button id="trueRestart">Restart</button>
+          <button id="cancelRestart">canel</button>
+        </section>
+        <button id="btnStats">Stats</button>
+        <section class="stats hidden">
+          <p>Stats</p>
+          <span>Total cookies earned:</span><span id="sumOfCookies">#</span>
+          <button id="cancel">canel</button>
+        </section>
+      </div>
+      <div class="upgrade-box">
+        <p>Upgrade</p>
+        <div class="upgrade-consol flex-column">
+          <table>
+            <tr>
+              <th>Pierkarnik</th>
+              <th id="ilosc">0</th>
+              <th class="sell">sell</th>
+            </tr>
+            <tr>
+              <th id="cena">20</th>
+              <th id="mnoznik">2</th>
+              <th class="buy">Buy</th>
+            </tr>
+          </table>
+        </div>
+      </div>
+    </main>
+    <script src="app.js"></script>
+  </body>
+</html>

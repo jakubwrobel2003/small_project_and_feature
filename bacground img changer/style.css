@@ -1,0 +1,31 @@
+body{
+    display: grid;
+    grid-template-columns: 20fr 80fr;
+    background-image: url("src/mcqueen.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+nav {
+    padding: 20px;
+    margin: 30px;
+    font-size: 30px;
+}
+
+
+nav button {
+    padding: 20px;
+    margin:30px;
+}
+button{
+    background-color: azure;
+    border: none;
+    opacity: 0.5;
+    transform:all 0.5s ;
+    border-radius: 10px;
+    cursor: pointer;
+}
+button:hover{
+transform: scale(1.1);
+background-color: #222;
+}
